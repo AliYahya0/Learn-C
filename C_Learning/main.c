@@ -5,6 +5,8 @@ int main(void)
   int temperature = 25; // Example temperature value
   int adjusted = temperature + 5;
 
+  temperature = 30; // Update temperature to a new value
+
   printf("Temperature: %d\n", temperature);
   printf("Adjusted: %d\n", adjusted);
   
