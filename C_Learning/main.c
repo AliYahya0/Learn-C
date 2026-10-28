@@ -1,16 +1,28 @@
 #include <stdio.h>
 
+#include <stdio.h>
+
+int temperature = 25;
+
 int main(void)
 {
-  int temperature = 25; // Example temperature value
-  int adjusted = temperature + 5;
+    if (temperature > 30)
+    {
+        printf("A\n");
+    }
 
-  temperature = 30; // Update temperature to a new value
+    if (temperature > 20)
+    {
+        printf("B\n");
+    }
+    else
+    {
+        printf("C\n");
+    }
 
-  printf("Temperature: %d\n", temperature);
-  printf("Adjusted: %d\n", adjusted);
-  
-  return 0;
+    printf("D\n");
+
+    return 0;
 }
 /*
 #include <stdio.h> makes the declaration of printf available to your program.
